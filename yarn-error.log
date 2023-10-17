@@ -1,0 +1,53 @@
+Arguments: 
+  /home/aleksas/.nvm/versions/node/v18.18.0/bin/node /home/aleksas/.nvm/versions/node/v18.18.0/bin/yarn add @micro-orm/cli
+
+PATH: 
+  /home/aleksas/.nvm/versions/node/v18.18.0/bin:/home/aleksas/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.18.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@micro-orm%2fcli: Not found
+      at params.callback [as _callback] (/home/aleksas/.nvm/versions/node/v18.18.0/lib/node_modules/yarn/lib/cli.js:66145:18)
+      at self.callback (/home/aleksas/.nvm/versions/node/v18.18.0/lib/node_modules/yarn/lib/cli.js:140890:22)
+      at Request.emit (node:events:517:28)
+      at Request.<anonymous> (/home/aleksas/.nvm/versions/node/v18.18.0/lib/node_modules/yarn/lib/cli.js:141862:10)
+      at Request.emit (node:events:517:28)
+      at IncomingMessage.<anonymous> (/home/aleksas/.nvm/versions/node/v18.18.0/lib/node_modules/yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:631:28)
+      at IncomingMessage.emit (node:events:529:35)
+      at endReadableNT (node:internal/streams/readable:1368:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "light-reddit",
+    "version": "1.0.0",
+    "description": "test",
+    "main": "index.js",
+    "scripts": {
+      "start": "node dist/index.js",
+      "start2": "nodemon dist/index.js",
+      "watch": "tsc -w"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@types/node": "^20.8.6",
+      "ts-node": "^10.9.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
